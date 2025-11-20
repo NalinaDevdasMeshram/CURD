@@ -23,9 +23,7 @@ const Table = () => {
   };
 
   // fetching backend data
-  useEffect(() => {
-    fetchData();
-  }, []);
+  useEffect(() => {}, []);
 
   const handleEdit = (user) => {
     setSelectUser(user);
