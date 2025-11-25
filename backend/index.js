@@ -14,6 +14,7 @@ server.use(cors());
 server.use("/api", router);
 //mongodb connect
 dbconnect();
+console.log("Hello welcome to CRUD Operation");
 server.listen(PORT, () => {
   console.log(`server running on the port ${PORT}`);
 });
